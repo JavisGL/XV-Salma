@@ -186,7 +186,7 @@
 <!-- ===== SECCIÓN: CÓDIGO DE VESTIMENTA ===== -->
 <section id="dresscode" class="section-light section-dress">
 <div class="dresscode-image">
-    <img src="/images/AM_G626.jpg" alt="Dress Code" loading="lazy">
+    <img src="/images/cardSal.JPG" alt="Dress Code" loading="lazy">
   </div> <br>
   <div class="container-narrow">
 
