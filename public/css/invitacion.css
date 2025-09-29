@@ -1,0 +1,816 @@
+/* public/css/invitacion.css */
+
+/* Fuente principal */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+    color: rgb(255, 255, 255);
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Oscurecer imagen para resaltar texto */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Caja central */
+.hero-center {
+    margin-top: 300px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero-card {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1.5px solid rgba(255, 255, 255, 0.973);
+    border-radius: 5px;
+}
+
+/* Nombre principal */
+.hero-names {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* Subtítulo */
+.hero-sub {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Contador */
+.hero-countdown {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.hero-countdown .box {
+    text-align: center;
+}
+
+.hero-countdown .box span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero-countdown .box small {
+    font-size: 0.75rem;
+}
+
+/* 📱 Ajustes para móvil */
+@media (max-width: 768px) {
+    .hero-card {
+        margin: 40px 30px; /* margen lateral */
+        padding: 5px 25px;
+        margin-top: 15px; /* menos padding para que no se vea enorme */
+    }
+
+    .hero-names {
+        font-size: 2rem; /* tamaño de texto adaptado */
+    }
+
+    .hero-sub {
+        font-size: 0.9rem;
+    }
+
+    .hero-countdown {
+        bottom: 60px; /* sube el contador */
+    }
+
+    .hero-countdown .box span {
+        font-size: 2rem; /* números más grandes */
+    }
+
+    .hero-countdown .box small {
+        font-size: 0.8rem;
+    }
+
+    /* ===== Sección clara (Nos casamos / familias) ===== */
+    .section-light {
+        background: #ffffff;
+        color: #2b2b2b; /* sobrescribe el blanco global del <body> */
+        padding: 56px 18px 72px;
+    }
+
+    .container-narrow {
+        max-width: 720px; /* reading width cómodo */
+        margin: 0 auto;
+    }
+
+    .title-sans {
+        margin: 14px 0 12px;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        font-size: clamp(28px, 6vw, 30px);
+        text-transform: uppercase;
+    }
+
+    .lead-center {
+        margin: 0 auto 10px;
+        text-align: center;
+        font-size: clamp(16px, 4.3vw, 17px);
+        line-height: 1.55;
+        color: #5a5a5a;
+        max-width: 34rem;
+    }
+
+    /* ramitas decorativas */
+    .leaf-divider {
+        display: grid;
+        place-items: center;
+        margin-bottom: 12px;
+    }
+    .leaf-divider.small {
+        margin: 24px 0;
+    }
+
+    /* listado de grupos (papás / padrinos) */
+    .families {
+        display: grid;
+        gap: 28px;
+    }
+
+    .group {
+        text-align: center;
+    }
+
+    .group h3 {
+        margin: 8px 0 10px;
+        font-size: clamp(16px, 4.6vw, 18px);
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        color: #2b2b2b;
+    }
+
+    .names {
+        margin: 0;
+        font-size: clamp(18px, 4.5vw, 18px);
+        line-height: 1.6;
+        color: #444;
+    }
+
+    .amp {
+        display: inline-block;
+        font-size: 1.1em;
+        margin: 2px 0;
+        color: #888;
+    }
+
+    /* un poco más de aire en pantallas medianas+ */
+    @media (min-width: 768px) {
+        .section-light {
+            padding: 72px 24px 96px;
+        }
+        .families {
+            gap: 36px;
+        }
+    }
+
+    /* ===== ¿DÓNDE & CUÁNDO? ===== */
+    .section-where {
+        background: #fff;
+        color: #000000;
+        padding: 56px 18px 30px;
+        /*border-top: 1px solid #e9e9e9;*/
+    }
+
+    .section-where .title-sans {
+        margin: 12px 0 18px;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        font-size: clamp(28px, 6vw, 30px);
+        text-transform: uppercase;
+    }
+
+    .venue-card {
+        border: 1px solid rgb(104, 59, 0);
+        border-radius: 2px;
+        background: #fff;
+        overflow: hidden;
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 30px;
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    .venue-photo img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .venue-body {
+        padding: 20px 18px 26px;
+        text-align: center;
+    }
+
+    .venue-tag {
+        margin: 10px 0 20px;
+        font-size: clamp(20px, 4.6vw, 18px);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .venue-datetime {
+        margin: 8px 0 16px;
+        font-size: 13px;
+        letter-spacing: 0.25em;
+        color: #777;
+        text-transform: uppercase;
+    }
+
+    .venue-title {
+        margin: 8px 0 10px;
+        font-size: clamp(18px, 5.2vw, 22px);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+    }
+
+    .venue-address {
+        margin: 0 0 18px;
+        color: #545454;
+        line-height: 1.55;
+        font-size: 15px;
+    }
+
+    .btn-map {
+        display: inline-block;
+        background: #111;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 18px;
+        border-radius: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-size: 12px;
+        transition: transform 0.15s ease, background 0.2s ease;
+    }
+
+    .btn-map:active {
+        transform: translateY(1px);
+    }
+    .btn-map:hover {
+        background: #000;
+    }
+
+    /* Un poco más de aire en desktop */
+    @media (min-width: 768px) {
+        .section-where {
+            padding: 72px 24px 96px;
+        }
+        .venue-body {
+            padding: 26px 28px 32px;
+        }
+    }
+
+    /* ===== CÓDIGO DE VESTIMENTA ===== */
+
+    .section-dress {
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    .dress-icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        align-items: start;
+        justify-items: center;
+        margin: 14px 0 10px;
+    }
+
+    .dress-icons figure {
+        margin: 0;
+        text-align: center;
+    }
+
+    .dress-icons img {
+        display: block;
+        width: 96px; /* tamaño cómodo en mobile */
+        height: auto;
+        margin: 0 auto 8px;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.06));
+    }
+
+    .dress-icons figcaption {
+        font-size: clamp(14px, 3.8vw, 15px);
+        letter-spacing: 0.04em;
+        color: #444;
+    }
+
+    .note-center {
+        margin: 12px auto 0;
+        text-align: center;
+        font-size: clamp(14px, 4vw, 16px);
+        color: #555;
+        max-width: 32rem;
+    }
+
+    @media (min-width: 768px) {
+        .section-dress {
+            padding-top: 52px;
+            padding-bottom: 80px;
+        }
+        .dress-icons img {
+            width: 110px;
+        }
+    }
+
+    /* ====== Paletas de colores (vestimenta) ====== */
+    .section-dress .dress-icons {
+        display: flex;
+        flex-direction: column; /* ← Mujeres arriba, Hombres abajo */
+        align-items: center;
+        gap: 16px;
+        margin: 6px 0 14px;
+    }
+
+    .section-dress .dress-icons figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0; /* limpia márgenes del navegador */
+    }
+
+    .section-dress .dress-icons svg {
+        width: 220px; /* ajusta si las quieres más pequeñas */
+        max-width: 90%;
+        height: auto;
+    }
+
+    .section-dress .dress-icons figcaption {
+        margin-top: 6px;
+        font-size: 0.95rem;
+        letter-spacing: 0.06em;
+    }
+
+    /* ===== CONFIRMA TU ASISTENCIA ===== */
+    .section-rsvp {
+        padding: 5px 18px 30px;
+    }
+
+    .rsvp-card {
+        background: #ffffff;
+        color: #2b2b2b;
+        border: 1px solid #eaeaea;
+        border-radius: 12px;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 22px 18px 24px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .rsvp-title {
+        margin: 0 0 6px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        font-size: clamp(18px, 5.2vw, 22px);
+    }
+
+    .rsvp-sub {
+        margin: 0 0 16px;
+        text-align: center;
+        color: #6c6c6c;
+        font-size: 15px;
+    }
+
+    .rsvp-alert {
+        border-radius: 10px;
+        padding: 10px 12px;
+        margin: 0 0 14px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .rsvp-alert.ok {
+        background: #eef8f0;
+        color: #1a7c3b;
+        border: 1px solid #cfead7;
+    }
+    .rsvp-alert.error {
+        background: #fdeeee;
+        color: #a53333;
+        border: 1px solid #f3caca;
+    }
+    .rsvp-alert ul {
+        margin: 0;
+        padding-left: 18px;
+    }
+
+    .rsvp-form .form-row {
+        margin-bottom: 12px;
+    }
+    .rsvp-form input[type="text"],
+    .rsvp-form input[type="number"] {
+        width: 100%;
+        appearance: none;
+        border: 1px solid #e0e0e0;
+        background: #f9f9f9;
+        border-radius: 10px;
+        padding: 14px 14px;
+        font-size: 16px;
+        outline: none;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease,
+            background 0.15s ease;
+    }
+    .rsvp-form input::placeholder {
+        color: #9b9b9b;
+    }
+
+    .rsvp-form input:focus {
+        background: #fff;
+        border-color: #d4c1a1; /* guiño al dorado de tus ramitas */
+        box-shadow: 0 0 0 3px rgba(217, 168, 108, 0.18);
+    }
+
+    .rsvp-btn {
+        width: 100%;
+        background: #111;
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        padding: 14px 18px;
+        font-size: 14px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: transform 0.12s ease, background 0.2s ease,
+            box-shadow 0.12s ease;
+    }
+    .rsvp-btn:hover {
+        background: #000;
+    }
+    .rsvp-btn:active {
+        transform: translateY(1px);
+    }
+
+    .rsvp-note {
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+        color: #8a8a8a;
+        font-size: 12px;
+    }
+
+    /* Un poco más de aire en pantallas medianas+ */
+    @media (min-width: 768px) {
+        .section-rsvp {
+            padding: 72px 24px 96px;
+        }
+        .rsvp-card {
+            padding: 28px 26px 30px;
+        }
+    }
+
+    .dresscode-image {
+        width: 100%;
+    }
+
+    .dresscode-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* asegura que se recorte sin deformarse */
+    }
+
+    /* ===== MESA DE REGALOS ===== */
+    .section-gifts {
+        padding: 5px 18px 30px;
+    }
+
+    .gift-list {
+        display: grid;
+        gap: 22px;
+        margin-top: 18px;
+    }
+
+    @media (min-width: 768px) {
+        .section-gifts {
+            padding: 72px 24px 96px;
+        }
+        .gift-list {
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+    }
+
+    .gift-card {
+        background: #fff;
+        color: #2b2b2b;
+        border: 1px solid #eaeaea;
+        border-radius: 12px;
+        padding: 22px 18px;
+        text-align: center;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .gift-logo {
+        display: block;
+        margin: 0 auto 12px;
+        max-width: 220px; /* ajusta según el logo */
+        max-height: 64px; /* para que no se dispare */
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.04));
+    }
+
+    .gift-event {
+        margin: 10px 0 14px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .gift-event .gift-number {
+        letter-spacing: 0.06em;
+        text-transform: none;
+        font-size: 14px;
+        color: #111;
+    }
+
+    .gift-copy {
+        border: 1px solid #e0e0e0;
+        background: #f7f7f7;
+        color: #333;
+        border-radius: 999px;
+        font-size: 12px;
+        padding: 6px 10px;
+        line-height: 1;
+        cursor: pointer;
+        transition: background 0.15s ease, transform 0.12s ease;
+    }
+    .gift-copy:hover {
+        background: #eee;
+    }
+    .gift-copy:active {
+        transform: translateY(1px);
+    }
+
+    .gift-btn {
+        display: inline-block;
+        background: #111;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 18px;
+        border-radius: 12px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-size: 12px;
+        transition: transform 0.12s ease, background 0.2s ease,
+            box-shadow 0.12s ease;
+    }
+    .gift-btn:hover {
+        background: #000;
+    }
+    .gift-btn:active {
+        transform: translateY(1px);
+    }
+
+    /* ===== GALERÍA ===== */
+    .section-gallery {
+        padding: 5px 18px 50px;
+    }
+
+    .gallery-slider {
+        position: relative;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .gallery-track {
+        display: flex;
+        transition: transform 1s ease;
+    }
+
+    .gallery-track img {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+
+    .section-share {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .section-share .title-sans {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-share .share-text {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .section-share .share-btn {
+        display: inline-block;
+        padding: 0.8rem 1.2rem;
+        background-color: #d9a86c;
+        color: #000;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .section-share .share-btn:hover {
+        background-color: #b88954;
+    }
+
+    .section {
+        background-image: url("/images/fondo_2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    /* compactar SOLO entre #familia y la primera .section-where */
+    #familia {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    } /* antes: 72px */
+    #familia .leaf-divider.small {
+        margin: 10px 0;
+        text-align: center;
+    } /* antes: 24px */
+
+    #familia + .section-where {
+        padding-top: 25px;
+    } /* antes: 56px */
+    #familia + .section-where .title-sans {
+        margin-top: 6px;
+    } /* por si acaso */
+
+    /* Reduce espacio inferior de mesa de regalos */
+    .section-gift {
+        margin-bottom: 20px; /* Ajusta según lo que necesites */
+    }
+
+    /* Reduce espacio superior de galería */
+    .section-gallery {
+        margin-top: 10px; /* Ajusta según lo que necesites */
+    }
+
+    .formal {
+        font-size: clamp(19px, 4.6vw, 18px);
+    }
+
+    .leaf-divider img.flower {
+        display: block; /* Para que respete el margin auto */
+        margin: 0 auto; /* Centrado horizontal */
+        max-width: 320px; /* Ajusta el ancho máximo que quieras */
+        height: auto; /* Mantiene proporciones */
+    }
+
+    .leaf-divider img.flower_2 {
+        display: block; /* Para que respete el margin auto */
+        margin: 0 auto; /* Centrado horizontal */
+        max-width: 320px; /* Ajusta el ancho máximo que quieras */
+        height: auto; /* Mantiene proporciones */
+    }
+
+    /* ===== Botón de música flotante ===== */
+    .music-btn {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        width: 54px;
+        height: 54px;
+        border: none;
+        border-radius: 50%;
+        background: #111;
+        color: #fff;
+        cursor: pointer;
+        z-index: 9999;
+        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+        display: grid;
+        place-items: center;
+        transition: transform 0.15s ease, background 0.2s ease;
+    }
+
+    .music-btn:hover {
+        background: #000;
+    }
+    .music-btn:active {
+        transform: translateY(1px) scale(0.98);
+    }
+
+    /* “Ondas” (ecualizador) */
+    .music-btn .eq {
+        width: 22px;
+        height: 16px;
+        display: flex;
+        align-items: flex-end;
+        gap: 4px;
+    }
+
+    .music-btn .eq i {
+        display: block;
+        width: 4px;
+        height: 6px;
+        background: #fff;
+        border-radius: 2px;
+        transform-origin: bottom;
+        opacity: 0.9;
+    }
+
+    /* Animación solo cuando está reproduciendo */
+    .music-btn.playing .eq i:nth-child(1) {
+        animation: eqA 0.9s ease-in-out infinite;
+    }
+    .music-btn.playing .eq i:nth-child(2) {
+        animation: eqB 1s ease-in-out infinite;
+    }
+    .music-btn.playing .eq i:nth-child(3) {
+        animation: eqC 0.85s ease-in-out infinite;
+    }
+
+    @keyframes eqA {
+        0%,
+        100% {
+            height: 6px;
+        }
+        50% {
+            height: 16px;
+        }
+    }
+    @keyframes eqB {
+        0%,
+        100% {
+            height: 10px;
+        }
+        50% {
+            height: 4px;
+        }
+    }
+    @keyframes eqC {
+        0%,
+        100% {
+            height: 14px;
+        }
+        50% {
+            height: 6px;
+        }
+    }
+
+    /* Evita que tape otros controles (ej. chat-bubble o fab de soporte) */
+    @media (max-width: 768px) {
+        .music-btn {
+            right: 14px;
+            bottom: 50px;
+        }
+    }
+
+    /* (Opcional) En pantallas grandes, ponerlas lado a lado:
+@media (min-width: 900px) {
+  .section-dress .dress-icons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+  }
+}
+*/
+}
