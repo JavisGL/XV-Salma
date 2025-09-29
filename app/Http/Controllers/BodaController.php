@@ -13,7 +13,7 @@ class BodaController extends Controller
         // Puedes cambiar la fecha y hora aquí
         $evento = [
             'lugar' => 'Capilla de la sagrada familia, Hidalgo',
-            'fecha' => '2025-10-17 13:00:00',
+            'fecha' => '2025-10-17 17:00:00',
         ];
 
         return view('invitacion', compact('evento'));

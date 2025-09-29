@@ -32,7 +32,7 @@ body {
 
 /* Caja central */
 .hero-center {
-    margin-top: 300px;
+    margin-bottom: 450px;
     position: relative;
     z-index: 2;
     text-align: center;
@@ -51,6 +51,14 @@ body {
     font-weight: 600;
     margin: 10px 0;
 }
+
+.hero-names1 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 10px 0;
+    
+}
+
 
 /* Subtítulo */
 .hero-sub {
@@ -209,7 +217,7 @@ body {
     }
 
     .venue-card {
-        border: 1px solid rgb(228, 168, 90);
+        border: 2px solid #6C8B95;
         border-radius: 2px;
         background: #fff;
         overflow: hidden;

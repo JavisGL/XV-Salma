@@ -16,6 +16,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
 
     <!-- Tu CSS (el que pegaste en el mensaje) -->
     <!-- dentro de <head> -->
@@ -32,26 +34,17 @@
 <body>
 
     <!-- HERO -->
-    <section class="hero" style="background-image: url('/images/IMG_8776.jpg')">
+    <section class="hero" style="background-image: url('/images/Salma (2).png')">
         <div class="hero-overlay"></div>
 
         <!-- Caja central con borde, ramita, nombres y sublínea -->
         <div class="hero-center">
-        <div class="leaf-divider" aria-hidden="true">
-                    <img src="/images/flor_33.png" alt="flor" width="400" height="70" loading="lazy" class="flower_2">
-                </div>
-            <div class="hero-card">
-                <!-- ramita decorativa -->
-                
-
+                <h4 class="hero-names1">MIS XV AÑOS</h4>
+       
                 <h1 class="hero-names">SALMA NICOL GEA LÓPEZ</h1>
 
-                <div class="hero-sub">
-                    {{ $fechaUi }} &nbsp;|&nbsp; MIS XV AÑOS
-                </div>
             </div>
-        </div>
-
+       
         <!-- Contador -->
         <div class="hero-countdown" id="countdown" data-target="{{ $fechaIso }}">
             <div class="box">
@@ -79,7 +72,7 @@
 
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+       <img src="/images/Corona.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h1 class="title-sans">MIS XV AÑOS</h1><br>
@@ -124,7 +117,7 @@
     <!-- Ramita -->
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+       <img src="/images/florazul.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h1 class="title-sans">¿DÓNDE &amp; CUÁNDO?</h1>
@@ -144,13 +137,13 @@
         <h4 class="venue-name">Parroquia La Divina Providencia</h4>
 
         <p class="venue-address">
-          Av Ferrocarril Central 2101, <br>
-          42080 Pachuca de Soto, <br>
+          Sta. Cecilia, La Providencia, <br>
+          42186 Pachuca de Soto, <br>
           Hidalgo.
         </p>
 
         <a class="btn-map"
-           href="https://maps.app.goo.gl/yN3MYax9gsRfcYKR7?g_st=aw"
+           href="https://maps.app.goo.gl/w2KPahTD7KuJEbcT7"
            target="_blank" rel="noopener">
           Ver en el mapa
         </a>
@@ -193,7 +186,7 @@
 <!-- ===== SECCIÓN: CÓDIGO DE VESTIMENTA ===== -->
 <section id="dresscode" class="section-light section-dress">
 <div class="dresscode-image">
-    <img src="/images/IMG_8805.jpg" alt="Dress Code" loading="lazy">
+    <img src="/images/AM_G626.jpg" alt="Dress Code" loading="lazy">
   </div> <br>
   <div class="container-narrow">
 
@@ -217,11 +210,11 @@
       <figure>
         <!-- Vestido: terracota, rosa antiguo, malva, salvia, champagne -->
 <svg viewBox="0 0 260 60" width="220" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="30"  cy="30" r="22" fill="#C7674A" /> <!-- terracota -->
-  <circle cx="80"  cy="30" r="22" fill="#C37A7F" /> <!-- rosa antiguo -->
-  <circle cx="130" cy="30" r="22" fill="#A876A0" /> <!-- malva -->
-  <circle cx="180" cy="30" r="22" fill="#A9B89E" /> <!-- salvia -->
-  <circle cx="230" cy="30" r="22" fill="#133229ff" stroke="#133229ff" stroke-width="1"/> <!-- champagne -->
+  <circle cx="30"  cy="30" r="22" fill="#E6B0AA" /> <!-- terracota -->
+  <circle cx="80"  cy="30" r="22" fill="#F7DC6F" /> <!-- rosa antiguo -->
+  <circle cx="130" cy="30" r="22" fill="#D2B4DE" /> <!-- malva -->
+  <circle cx="180" cy="30" r="22" fill="#A9DFBF" /> <!-- salvia -->
+  <circle cx="230" cy="30" r="22" fill="#FADBD8" stroke="#133229ff" stroke-width="1"/> <!-- champagne -->
 </svg>
 
 
