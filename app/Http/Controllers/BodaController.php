@@ -25,7 +25,7 @@ class BodaController extends Controller
         'nombre'          => ['required','string','max:100'],
         'apellido'        => ['required','string','max:100'], // ← ahora requerido
         'telefono'        => ['nullable','string','max:20'],
-        'invitados_extra' => ['required','integer','min:0','max:6'],
+        //'invitados_extra' => ['required','integer','min:0','max:6'],
     ];
 
     $messages = [
@@ -41,7 +41,7 @@ class BodaController extends Controller
         'nombre'          => 'nombre',
         'apellido'        => 'apellido',
         'telefono'        => 'teléfono',
-        'invitados_extra' => 'número de acompañantes',
+        // 'invitados_extra' => 'número de acompañantes',
     ];
 
     $validator = Validator::make($request->all(), $rules, $messages, $attributes);

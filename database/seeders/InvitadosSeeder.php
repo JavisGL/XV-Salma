@@ -13,12 +13,12 @@ class InvitadosSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('invitados')->insert([
+        DB::table('invitadosSalma')->insert([
             [
                 'nombre' => 'Juan',
                 'apellido' => 'Pérez',
                 'telefono' => '5551234567',
-                'invitados_extra' => 2,
+                //'invitados_extra' => 2,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
@@ -26,7 +26,7 @@ class InvitadosSeeder extends Seeder
                 'nombre' => 'María',
                 'apellido' => 'López',
                 'telefono' => '5559876543',
-                'invitados_extra' => 3,
+                //'invitados_extra' => 3,
                 'created_at' => now(),
                 'updated_at' => now(),
             ]

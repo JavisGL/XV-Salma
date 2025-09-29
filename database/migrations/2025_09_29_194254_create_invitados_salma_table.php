@@ -12,14 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('invitadosSalma', function (Blueprint $table) {
-    $table->id();
-    $table->string('nombre', 100);
-    $table->string('apellido', 100);
-    $table->string('telefono', 20)->nullable();
-    // $table->unsignedTinyInteger('invitados_extra')->default(0); // 0 si va solo
-    $table->timestamps();
-});
-
+            $table->id();
+            $table->string('nombre', 100);
+            $table->string('apellido', 100);
+            $table->string('telefono', 20)->nullable();
+            //$table->integer('invitados_extra');
+            $table->timestamps();
+        });
     }
 
     /**
