@@ -117,14 +117,14 @@
     <!-- Ramita -->
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/florazul.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
+       <img src="/images/Flor1.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h1 class="title-sans">¿DÓNDE &amp; CUÁNDO?</h1>
 
     <article class="venue-card">
       <div class="venue-photo">
-        <img src="/images/capilla.jpg" alt="Capilla de la Sagrada Familia" loading="lazy">
+        <img src="/images/Parroquia.png" alt="Capilla de la Sagrada Familia" loading="lazy">
       </div>
 
       <div class="venue-body">
@@ -186,14 +186,14 @@
 <!-- ===== SECCIÓN: CÓDIGO DE VESTIMENTA ===== -->
 <section id="dresscode" class="section-light section-dress">
 <div class="dresscode-image">
-    <img src="/images/cardSal.JPG" alt="Dress Code" loading="lazy">
+    <img src="/images/IMG3.png" alt="Dress Code" loading="lazy">
   </div> <br>
   <div class="container-narrow">
 
     <!-- Ramita -->
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+         <img src="/images/Flor1.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h1 class="title-sans">Código de Vestimenta</h1>
@@ -202,7 +202,7 @@
   <b class="formal">Formal / Etiqueta</b>
 </div>
     <p class="lead-center">
-      Sugerencias:
+      ✨ Recomendamos prendas con brillos ✨ <br>Dejamos algunas sugerencias:
     </p>
 
     <div class="dress-icons">
@@ -210,21 +210,33 @@
       <figure>
         <!-- Vestido: terracota, rosa antiguo, malva, salvia, champagne -->
 <svg viewBox="0 0 260 60" width="220" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="30"  cy="30" r="22" fill="#E6B0AA" /> <!-- terracota -->
-  <circle cx="80"  cy="30" r="22" fill="#F7DC6F" /> <!-- rosa antiguo -->
-  <circle cx="130" cy="30" r="22" fill="#D2B4DE" /> <!-- malva -->
-  <circle cx="180" cy="30" r="22" fill="#A9DFBF" /> <!-- salvia -->
-  <circle cx="230" cy="30" r="22" fill="#FADBD8" stroke="#133229ff" stroke-width="1"/> <!-- champagne -->
+  <circle cx="30"  cy="30" r="22" fill="#E3B6B3" /> <!-- terracota -->
+  <circle cx="80"  cy="30" r="22" fill="#F7E7CE" /> <!-- rosa antiguo -->
+  <circle cx="130" cy="30" r="22" fill="#FFFFF0" /> <!-- malva -->
+  <circle cx="180" cy="30" r="22" fill="#C0C0C0" /> <!-- salvia -->
+  <circle cx="230" cy="30" r="22" fill="#0B6E4F" stroke="#133229ff" stroke-width="1"/> <!-- champagne -->
 </svg>
 
 
         <figcaption>Mujeres</figcaption>
       </figure>
+<figure>
+        <!-- Vestido: terracota, rosa antiguo, malva, salvia, champagne -->
+<svg viewBox="0 0 260 60" width="220" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30"  cy="30" r="22" fill="#1C1C1C" /> <!-- terracota -->
+  <circle cx="80"  cy="30" r="22" fill="#707070" /> <!-- rosa antiguo -->
+  <circle cx="130" cy="30" r="22" fill="#F5F5F5" /> <!-- malva -->
+  <circle cx="180" cy="30" r="22" fill="#C5A572" /> <!-- salvia -->
+  <circle cx="230" cy="30" r="22" fill="#6A1E1E" stroke="#133229ff" stroke-width="1"/> <!-- champagne -->
+</svg>
 
+
+        <figcaption>Hombres</figcaption>
+      </figure>
 
 
     <p class="note-center">
-      Evita el uso del color <strong>azul</strong>
+      Se solicita cordialmente evitar el uso del color <strong>azul</strong> en todas sus tonalidades.
     </p>
   </div>
 </section>
@@ -235,7 +247,7 @@
 
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+         <img src="/images/Flor1.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h2 class="title-sans">Confirma tu asistencia</h2>
@@ -282,7 +294,7 @@
 
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+         <img src="/images/Flor1.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h2 class="title-sans">Mesa de Regalos</h2>
@@ -316,17 +328,16 @@
 
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+       <img src="/images/Flor1.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
-    <h2 class="title-sans">Nuestros Momentos</h2>
+    <h2 class="title-sans">Recuerdos Inolvidables</h2>
 
     <div class="gallery-slider">
       <div class="gallery-track">
-        <img src="/images/IMG_9310.jpg" alt="Foto 1">
-        <img src="/images/IMG_9023.jpg" alt="Foto 2">
-        <img src="/images/IMG_9720.jpg" alt="Foto 3">
-        <img src="/images/IMG_8825.jpg" alt="Foto 4">
+        <img src="/images/IMG1.png" alt="Foto 1">
+        <img src="/images/IMG2.png" alt="Foto 2">
+        <img src="/images/IMG3.png" alt="Foto 4">
       </div>
     </div>
   </div>
@@ -337,13 +348,13 @@
 
     <!-- ramita decorativa superior -->
     <div class="leaf-divider" aria-hidden="true">
-       <img src="/images/flor.webp" alt="flor" width="400" height="70" loading="lazy" class="flower">
+       <img src="/images/cor1.png" alt="flor" width="50" height="70" loading="lazy" class="flower">
     </div>
 
     <h2 class="title-sans">Comparte tus Recuerdos</h2>
 
     <p class="share-text">
-      Puedes compartir las fotos y videos de nuestra boda en la siguiente carpeta:
+      Me encantaría que compartieras aquí las fotos y videos que tomaste durante la fiesta. ¡Serán un gran recuerdo para mí
     </p>
 
     <a class="share-btn" href="https://drive.google.com/drive/folders/1yAaFtBJ_jOzTM_SHg-FzGLZX-Z4fM6Um" target="_blank" rel="noopener">
