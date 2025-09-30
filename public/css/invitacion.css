@@ -217,7 +217,7 @@ body {
     }
 
     .venue-card {
-        border: 1px solid #6C8B95;
+        border: 1px solid #6c8b95;
         border-radius: 2px;
         background: #fff;
         overflow: hidden;
@@ -336,8 +336,8 @@ body {
     .note-center {
         margin: 12px auto 0;
         text-align: center;
-        font-size: clamp(14px, 4vw, 16px);
-        color: #555;
+        font-size: clamp(17px, 4vw, 16px);
+        color: #3f3e3e;
         max-width: 32rem;
     }
 
@@ -392,7 +392,7 @@ body {
         max-width: 720px;
         margin: 0 auto;
         padding: 22px 18px 24px;
-        box-shadow: 0 2px 15px #6C8B95;
+        box-shadow: 0 2px 15px #6c8b95;
         margin-top: 30px;
     }
 
@@ -641,7 +641,7 @@ body {
     .section-share {
         text-align: center;
         padding: 2rem 1rem;
-        background-color: #1A1A1A;
+        background-color: #1a1a1a;
         color: #fff;
     }
 
@@ -658,7 +658,7 @@ body {
     .section-share .share-btn {
         display: inline-block;
         padding: 0.8rem 1.2rem;
-        background-color: #6C8B95;
+        background-color: #6c8b95;
         color: #ffffff;
         font-weight: bold;
         border-radius: 5px;
@@ -731,7 +731,7 @@ body {
         height: 54px;
         border: none;
         border-radius: 50%;
-        background: #6C8B95;
+        background: #6c8b95;
         color: #fff;
         cursor: pointer;
         z-index: 9999;
@@ -742,7 +742,7 @@ body {
     }
 
     .music-btn:hover {
-        background: #6C8B95;
+        background: #6c8b95;
     }
     .music-btn:active {
         transform: translateY(1px) scale(0.98);
@@ -812,6 +812,10 @@ body {
             right: 14px;
             bottom: 50px;
         }
+    }
+
+    .azul {
+        color: #6c8b95; /* Color azul para la clase "azul" */
     }
 
     /* (Opcional) En pantallas grandes, ponerlas lado a lado:

@@ -41,7 +41,7 @@
         <div class="hero-center">
                 <h4 class="hero-names1">MIS XV AÑOS</h4>
        
-                <h1 class="hero-names">SALMA NICOL GEA LÓPEZ</h1>
+                <h1 class="hero-names">SALMA NICOLE GEA LÓPEZ</h1>
 
             </div>
        
@@ -78,7 +78,7 @@
     <h1 class="title-sans">MIS XV AÑOS</h1><br>
 
     <p class="lead-center">
-      Con la bendición de Dios y en compañia de mis padres, hermanos y padrinos.
+      Con la bendición de Dios y en compañía de mis padres, hermanos y padrinos.
     </p><br>
 
     <div class="families">
@@ -86,16 +86,16 @@
       <div class="group">
         <h2>Mis Padres</h2>
         <p class="names">
-         Sr.Víctor Manuel Gea Hernández<br>
-          Sra. María Magdalena López Gress
+         María Magdalena López Gress<br>
+         Víctor Manuel Gea Hernández
         </p>
       </div>
 
       <div class="group">
         <h2>Mis Padrinos</h2>
-        <p class="names">
-          Sr. Juan Carlos Gea López <br>
-         Sra.Kenia Carolina Ramírez Camacho
+        <p class="names"> 
+          Juan Carlos Gea López <br>
+          Kenia Carolina Ramírez Camacho        
         </p>
       </div>
 
@@ -106,6 +106,10 @@
          Anaid Monserrat Gea López
         </p>
       </div>
+
+       <p class="lead-center">
+      Nos complace invitarte a ser parte de este gran día.
+    </p>
 
 
     </div>
@@ -236,7 +240,7 @@
 
 
     <p class="note-center">
-      Se solicita cordialmente evitar el uso del color <strong>azul</strong> en todas sus tonalidades.
+      Se solicita cordialmente evitar el uso del color <U class= "azul"><strong>azul</strong></U> en todas sus tonalidades.
     </p>
   </div>
 </section>
@@ -354,7 +358,7 @@
     <h2 class="title-sans">Comparte tus Recuerdos</h2>
 
     <p class="share-text">
-      Me encantaría que compartieras aquí las fotos y videos que tomaste durante la fiesta. ¡Serán un gran recuerdo para mí
+      Me encantaría que compartieras aquí las fotos y videos que tomaste durante la fiesta. ¡Serán un gran recuerdo para mí!
     </p>
 
     <a class="share-btn" href="https://drive.google.com/drive/folders/1yAaFtBJ_jOzTM_SHg-FzGLZX-Z4fM6Um" target="_blank" rel="noopener">
