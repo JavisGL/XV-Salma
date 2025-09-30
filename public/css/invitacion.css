@@ -742,7 +742,7 @@ body {
     }
 
     .music-btn:hover {
-        background: #000;
+        background: #6C8B95;
     }
     .music-btn:active {
         transform: translateY(1px) scale(0.98);
