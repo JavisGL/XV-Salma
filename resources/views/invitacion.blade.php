@@ -91,6 +91,14 @@
         </p>
       </div>
 
+<div class="group">
+        <h2>Mis Hermanos</h2>
+        <p class="names">
+          Juan Carlos Gea López <br>
+         Anaid Monserrat Gea López
+        </p>
+      </div>
+      
       <div class="group">
         <h2>Mis Padrinos</h2>
         <p class="names"> 
@@ -99,13 +107,7 @@
         </p>
       </div>
 
-      <div class="group">
-        <h2>Mis Hermanos</h2>
-        <p class="names">
-          Juan Carlos Gea López <br>
-         Anaid Monserrat Gea López
-        </p>
-      </div>
+      
 
        <p class="lead-center">
       Nos complace invitarte a ser parte de este gran día.
