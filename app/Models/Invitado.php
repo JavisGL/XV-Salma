@@ -9,6 +9,7 @@ class Invitado extends Model
      protected $table = 'invitadosSalma';
 
     protected $fillable = [
-        'nombre', 'apellido', 'telefono', 'invitados_extra',
+        'nombre', 'apellido', 'telefono', 
+        //'invitados_extra',
     ];
 }

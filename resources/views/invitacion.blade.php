@@ -267,7 +267,7 @@
         </div>
 
         <div class="form-row">
-          <input type="number" placeholder="Número telefónico" required>
+          <input type="tel" name="telefono" placeholder="Número telefónico" required>
         </div>
 
         <button type="submit" class="rsvp-btn">Confirmar asistencia</button>
@@ -346,7 +346,7 @@
       Puedes compartir las fotos y videos de nuestra boda en la siguiente carpeta:
     </p>
 
-    <a class="share-btn" href="https://drive.google.com/drive/folders/10fQPxr-SBXCbi1aEGanDL6EtZTR2_0IT?usp=sharing" target="_blank" rel="noopener">
+    <a class="share-btn" href="https://drive.google.com/drive/folders/1yAaFtBJ_jOzTM_SHg-FzGLZX-Z4fM6Um" target="_blank" rel="noopener">
       📂 Ver carpeta en Google Drive
     </a>
 

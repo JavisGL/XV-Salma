@@ -56,9 +56,7 @@ body {
     font-size: 1.4rem;
     font-weight: 100;
     margin: 10px 0;
-    
 }
-
 
 /* Subtítulo */
 .hero-sub {
@@ -217,7 +215,7 @@ body {
     }
 
     .venue-card {
-        border: 2px solid #6C8B95;
+        border: 2px solid #6c8b95;
         border-radius: 2px;
         background: #fff;
         overflow: hidden;
@@ -437,7 +435,8 @@ body {
         margin-bottom: 12px;
     }
     .rsvp-form input[type="text"],
-    .rsvp-form input[type="number"] {
+    .rsvp-form input[type="number"],
+    .rsvp-form input[type="tel"] {
         width: 100%;
         appearance: none;
         border: 1px solid #e0e0e0;
