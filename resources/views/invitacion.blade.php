@@ -98,7 +98,7 @@
          Anaid Monserrat Gea López
         </p>
       </div>
-      
+
       <div class="group">
         <h2>Mis Padrinos</h2>
         <p class="names"> 
@@ -442,29 +442,26 @@ document.addEventListener('DOMContentLoaded', function(){
     btn.setAttribute('aria-pressed', playing ? 'true' : 'false');
   }
 
+  // Intentar reproducir automáticamente al cargar la página
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+      await audio.play();
+      syncUI();
+    } catch (e) {
+      console.log('Autoplay bloqueado, el usuario deberá interactuar:', e);
+    }
+  });
+
   btn.addEventListener('click', async () => {
-    try{
+    try {
       if(audio.paused){ await audio.play(); localStorage.setItem('bgMusic','on'); }
       else{ audio.pause(); localStorage.setItem('bgMusic','off'); }
       syncUI();
-    }catch(e){
-      // Autoplay bloqueado: el usuario deberá tocar otra vez
+    } catch(e){
       console.log('No se pudo reproducir aún:', e);
     }
   });
 
-  // Si el usuario ya lo había dejado "ON", reproduce tras el primer toque en la página
-  const wantedOn = localStorage.getItem('bgMusic') === 'on';
-  if (wantedOn){
-    const tryStart = async () => {
-      try{ await audio.play(); syncUI(); }
-      catch(e){ /* ignorar */ }
-      window.removeEventListener('pointerdown', tryStart);
-    };
-    window.addEventListener('pointerdown', tryStart, { once:true });
-  }
-
-  // Mantén UI sincronizada si se pausa por eventos del sistema
   audio.addEventListener('play',  syncUI);
   audio.addEventListener('pause', syncUI);
 })();
